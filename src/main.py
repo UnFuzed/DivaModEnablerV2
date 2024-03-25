@@ -1,10 +1,10 @@
-from classes.mod import Mod
 from classes.divamodenabler import DivaModEnabler
+from classes.gamebanana import GameBanana
 
 
 def main() -> None:
-    mod : Mod = Mod("Test Mod", "UnFuzed", "1", True, ".")
-    divamodenabler : DivaModEnabler = DivaModEnabler()
+    print(DivaModEnabler.VERISON)
+    print(GameBanana.get_new_mods())
 
 
 

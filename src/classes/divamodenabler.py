@@ -1,15 +1,18 @@
 import PyQt5
-from  classes.mod import Mod
+import toml 
+import os
+
+from classes.mod import Mod
+from classes.gamebanana import GameBanana
+
 
 class DivaModEnabler:
     """
-    A class to represent the program of DivaModEnabler
-
-    Attributes
-    ----------
-    verison : str
-        verison number written as a string of DivaModEnabler
+    A static class to represent the program of DivaModEnabler
     """
+    
+    VERISON : str = "0.1"
 
-    def __init__(self, verison : str) -> None:
-        self._verison: str = verison
+    @staticmethod
+    def test() -> None:
+        pass

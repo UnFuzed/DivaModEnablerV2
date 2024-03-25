@@ -14,6 +14,9 @@ class Mod:
         mod is enabled or disabled
     path : str
         path to the mod folder
+    
+    Methods
+    -------
     """
 
     def __init__(self, name : str, author: str, verison: str, enabled : bool, path : str) -> None:
